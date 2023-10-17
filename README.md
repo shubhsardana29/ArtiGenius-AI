@@ -1,7 +1,8 @@
 # ArtiGenius-AI
 <div align="center">
-  <img src="https://github.com/shubhsardana29/Artigenius-AI/assets/52607235/41ae77f8-357b-4837-8164-d385c7cccffa" alt="ArtiGenius AI" />
+  <img src="https://github.com/shubhsardana29/ArtiGenius-AI/assets/52607235/62e2e626-5612-4394-bd77-1f50ed9f1a31" alt="ArtiGenius AI" />
 </div>
+
 
 
 This is a simple Flutter and Firebase project that allows you to generate images using the [OpenAI API](https://platform.openai.com/docs/api-reference). With this app, you can create images with text prompts, turning your ideas into visual art.
@@ -12,10 +13,17 @@ This is a simple Flutter and Firebase project that allows you to generate images
 - Dart: v2.12.0 or higher
 - Firebase authentication and Firestore services
 
+## Screen-recording
+
+
+https://github.com/shubhsardana29/ArtiGenius-AI/assets/52607235/07a92cdb-a6f4-4495-82c6-e19e78a933e7
+
+
+
 ## Local Setup
 
 1. Clone the repository:
-   ```git clone https://github.com/shubhsardana29/artigenius-ai.git```
+   ```https://github.com/shubhsardana29/ArtiGenius-AI.git```
 2. Navigate to the project directory:
    ```cd artigeniusai ```
 3. Install the dependencies:
@@ -31,6 +39,8 @@ This is a simple Flutter and Firebase project that allows you to generate images
 
    - For Android, copy the `google-services.json` file to the `android/app` directory.
    - For iOS, copy the `GoogleService-Info.plist` file to the `ios/Runner` directory.
+
+6. Create a `api_key.dart` file in the lib directory and add your OpenAI API key as `apiKey`. You can get your API key from your OpenAI account settings.
 
 6. Run the app
 
